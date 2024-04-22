@@ -12,12 +12,12 @@ function Resume() {
       <div id='Portfolio' className='mb-[80px] w-full h-full bg-white'>
 
 
-      <div className='flex flex-col mx-8 my-10'>
-      <h1 className='md:text-5xl text-3xl text-[#344054] font-bold'>Lets have a look at </h1>
+      <div className='flex flex-col mx-8 my-10 mt-20'>
+      <h1 className='md:text-5xl sm:text-3xl text-2xl text-[#344054] font-bold'>Lets have a look at </h1>
         <div className='flex justify-between md:'>
-          <h1 className='md:text-5xl text-[#344054] font-bold text-3xl '><span className='text-[#FD853A]'>my Portfolio</span> </h1>
+          <h1 className='md:text-5xl text-[#344054] font-bold sm:text-3xl text-2xl '><span className='text-[#FD853A]'>my Portfolio</span> </h1>
           <button onClick={handlePortfolio} 
-          className='text-white bg-[#FD853A] font-semibold md:py-2 md:px-6 md:text-base rounded-full text-sm px-4 py-2 hover:bg-[#fc8f4b] hover:shadow-md '>See all</button>
+          className='text-white bg-[#FD853A] font-semibold md:py-2 md:px-6 md:text-base rounded-full text-sm sm:px-4 px-6 py-2 hover:bg-[#fc8f4b] hover:shadow-md '>See all</button>
         </div>
 
 
