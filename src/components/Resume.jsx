@@ -25,12 +25,16 @@ function Resume() {
         <div className='h-full flex justify-center items-center flex-wrap my-10'>
 
         <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl relative '>
-        <div className='absolute top-0 w-[500px] h-full md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
+        <a href="">
+        <div className='absolute top-0 w-full md:w-[500px] h-full md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 md:text-4xl text-2xl content-end font-bold  hover:backdrop-blur-sm duration-500 hover:cursor-pointer'>My Oldest Portfolio</div>
+        </a>
           <img className=' md:h-[280px] lg:h-[350px] border rounded-3xl object-cover ' src={portfolio} style={{width:'500px'}} alt="" />
         </div>
         
-        <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl relative '>
-        <div className='absolute top-0 h-full w-[500px] md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
+        <div className='mx-4 mt-2 sm:mt-0  hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl relative '>
+        <a href="">
+        <div className='absolute top-0 h-full w-full md:w-[500px] md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 md:text-4xl text-2xl content-end font-bold hover:backdrop-blur-sm duration-500 hover:cursor-pointer '>WEEKAWAY</div>
+        </a>
           <img className='md:h-[280px] lg:h-[350px] border rounded-3xl object-cover' src={rent} style={{width:'500px'}} alt="" />
           </div>
         </div>

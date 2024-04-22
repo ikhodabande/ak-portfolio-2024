@@ -80,7 +80,7 @@ function Home() {
   
 
   {/*name in mobile view  */}
-  <div className='absolute top-[25%] text-center sm:hidden'>
+  <div className='absolute top-[20%] text-center sm:hidden'>
 <p className='text-start font-semibold'>Hello!</p>
 <h1 className='text-3xl font-bold'>I`m <span className='text-orange-500'>Amir Khodabande</span>,</h1>
 <h1 className='text-2xl font-bold'>

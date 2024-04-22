@@ -62,7 +62,7 @@ function Navbar() {
       </div>
       {/* on mobile view */}
 
-      <div className='flex sm:hidden pt-4 justify-between items-center'>
+      <div className='flex sm:hidden pt-8 justify-between items-center'>
       <div onMouseEnter={handleLogo} onMouseLeave={handleLogo} className='flex justify-start ml-6 lg:justify-center items-center lg:ml-0 '>
         <img  src={Logo} alt="" style={{width:'30px'}}/>
         <div className=''>

@@ -38,7 +38,7 @@ function Services() {
  </div>
 
   {/* card 2 */}
- <div className='w-[80%] md:w-[416px] h-[400px] lg:h-[508px] bg-[#ffffff16] backdrop-blur-sm rounded-[5%] text-white border border-[#ffffff60] my-4 mx-2 sm:hover:scale-105 duration-200 ease-in hover:cursor-pointer hover:backdrop-blur-md hover:shadow-xl'>
+ <div className='w-[80%] md:w-[416px] h-[400px] lg:h-[508px] bg-[#ffffff16] backdrop-blur-sm rounded-[5%] text-white border border-[#ffffff60] my-4 mx-2 sm:hover:scale-105 duration-200 ease-in hover:cursor-pointer hover:backdrop-blur-md hover:shadow-xl relative'>
    <h2 className='text-xl p-8'>Web Design</h2>
    <div className='border border-[#ffffff5c]'></div>
    <div className='w-[18vw] h-[20vh] absolute bottom-[50%] translate-y-[40%] bg-[#ffffff68] rounded-3xl left-[50%] -translate-x-[50%] md:flex hidden' >
@@ -52,7 +52,7 @@ function Services() {
  </div>
 
   {/* card 3 */}
- <div className='w-[80%] md:w-[416px] sm:h-[400px] h-[350px] lg:h-[508px] bg-[#ffffff16] backdrop-blur-sm rounded-[5%] text-white border border-[#ffffff60] my-4 mx-2 sm:hover:scale-105 duration-200 ease-in hover:cursor-pointer hover:backdrop-blur-md hover:shadow-xl'>
+ <div className='w-[80%] md:w-[416px] sm:h-[400px] h-[350px] lg:h-[508px] bg-[#ffffff16] backdrop-blur-sm rounded-[5%] text-white border border-[#ffffff60] my-4 mx-2 sm:hover:scale-105 duration-200 ease-in hover:cursor-pointer hover:backdrop-blur-md hover:shadow-xl relative'>
    <h2 className='text-xl p-8 '>UI Design</h2>
    <div className='border border-[#ffffff5c]'></div>
    <div className='w-[18vw] h-[20vh] absolute bottom-[47%] translate-y-[30%] bg-[#ffffff68] rounded-3xl left-[50%] -translate-x-[50%] md:flex hidden' >
