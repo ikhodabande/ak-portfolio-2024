@@ -91,9 +91,9 @@ function Navbar() {
       </div>
 
       {/* hamberger icon */}  
-     <button className='mr-6 z-20' onClick={handleMenu} >
+     <button className='mr-6 z-20 ' onClick={handleMenu} >
      {
-        menu ? <IoCloseSharp className='text-lg text-white' /> : <GiHamburgerMenu  className='text-lg '/>
+        menu ? <IoCloseSharp className='text-lg text-white' /> : <GiHamburgerMenu  className='text-l '/>
       }
      </button>
         </div>
@@ -103,12 +103,31 @@ function Navbar() {
      {/* mobileMenu */}
        
         <ul className={menu?'flex flex-col w-screen h-screen bg-[#000000de] z-10 text-white text-center absolute top-0 py-[20%] text-2xl backdrop-blur-md':'hidden'}>
+
+        <Link onClick={handleMenu}  activeClass='active' to='Home' spy={true} duration={500} smooth={true} offset={-150} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-whitehover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Home</li>
+        </Link>
+
+        <Link onClick={handleMenu} activeClass='active' to='About' spy={true} duration={500} smooth={true}>
           <li className='py-6 px-10 hover:shadow-xl hover:outline-white hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>About</li>
+        </Link>
+
+        <Link onClick={handleMenu} activeClass='active' to='Services' spy={true} duration={500} smooth={true} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-white hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Services</li>
+        </Link>
+
+        <Link onClick={handleMenu} activeClass='active' to='Resume' spy={true} duration={500} smooth={true} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-whitehover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Resume</li>
+        </Link>
+
+        <Link onClick={handleMenu} activeClass='active' to='Project' spy={true} duration={500} smooth={true} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-white hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Projects</li>
+        </Link>
+
+        <Link onClick={handleMenu} activeClass='active' to='Contact' spy={true} duration={500} smooth={true} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-whiteorder-none outline-none  hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Contact</li>
+        </Link>
+
         </ul>
        
       </div>
