@@ -11,7 +11,7 @@
   }
   li {
     @apply px-10;
-    @apply py-4
+    @apply py-4;
   }
  
 }
