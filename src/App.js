@@ -8,12 +8,20 @@ import Projects from './components/Projects'
 import About from './components/About'
 import Hire from './components/Hire'
 import Contact from './components/Contact'
+import { Helmet } from 'react-helmet'
+
 
 
 function App() {
   
   return (
     <>
+    <Helmet>
+                <meta charSet="utf-8" />
+                <title>AmirMohammad Khodabande</title>
+                <link rel="canonical" href="http://ikhodabande.ir" />
+                <meta name="description" content="AmirMohammad Khodabande Portfolio - 2024" />
+    </Helmet>
     <Navbar/>
     <Home/>
     <Services/>

@@ -5,7 +5,7 @@ function About() {
   return (
 
     
-      <div  className='w-full h-full relative'>
+      <div name="About"  className='w-full h-full relative'>
         {/* background Images and abstracts */}
          <img className='w-full md:h-screen h-full lg:object-cover lg:rounded-3xl  ' src={img} alt="" /> 
          
