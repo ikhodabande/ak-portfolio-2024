@@ -25,7 +25,7 @@ function About() {
           <div className='w-full h-full flex justify-center my-[40px] md:my-[80px] md:flex-nowrap flex-wrap'>
           
             {/* cardfeed one */}
-            <div className='md:w-[550px] w-[60%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
+            <div className='md:w-[550px] sm:w-[60%] w-[90%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
               <div className='w-full flex justify-between items-center'>
                 <div className='flex flex-col'>
                    <div className='flex items-center pt-8 '>
@@ -51,7 +51,7 @@ function About() {
 
             
             {/* cardfeed two */}
-            <div className='md:w-[550px] w-[60%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
+            <div className='md:w-[550px] sm:w-[60%] w-[90%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
               <div className='w-full flex justify-between items-center'>
                 <div className='flex flex-col'>
                   
@@ -78,7 +78,7 @@ function About() {
 
            
             {/* cardfeed three */}
-            <div className='md:w-[550px] w-[60%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
+            <div className='md:w-[550px] sm:w-[60%] w-[90%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
               <div className='w-full flex justify-between items-center'>
                 <div className='flex flex-col'>
                    <div className='flex items-center pt-8 '>

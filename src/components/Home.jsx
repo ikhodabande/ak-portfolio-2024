@@ -20,13 +20,13 @@ function Home() {
   return (
 
  <section>
-     <div  id='Home' className='w-full h-screen bg-white relative'>
+     <div  id='Home' className='w-full sm:h-screen h-[610px] bg-white relative'>
 
 {/* my name and titles */}
-<div className={`w-full flex flex-col justify-center items-center md:mt-[40px] mt-4  ${ProfileImg?'translate-y-[50vh] scale-50 duration-500 ease-in-out':'translate-y-[0vh] scale-100 duration-300 ease-in-out'}`}  >
-<p className='border-2 border-gray-600 rounded-full py-1 px-5 '>Hello!</p>
-<h1 className='md:text-6xl text-4xl font-bold mt-4'>I`m <span className='text-orange-500'>Amir Khodabande</span>,</h1>
-<h1 className='md:text-7xl text-4xl font-bold'>
+<div className={`w-full flex flex-col justify-center items-center md:mt-[40px] sm:mt-4 ${ProfileImg?'translate-y-[50vh] scale-50 duration-500 ease-in-out':'translate-y-[0vh] scale-100 duration-300 ease-in-out'}`}  >
+<p className='border-2 hidden sm:flex border-gray-600 rounded-full py-1 px-5 '>Hello!</p>
+<h1 className='hidden sm:flex md:text-6xl sm:text-4xl text-3xl font-bold sm:mt-4 '>I`m <span className='text-orange-500'>Amir Khodabande</span>,</h1>
+<h1 className='hidden sm:flex md:text-7xl sm:text-4xl text-2xl font-bold'>
 <TypeAnimation
       sequence={[
         'Front-end Developer',
@@ -75,10 +75,40 @@ function Home() {
  
   </div>
 {/* Profile Image */}
+   
+  <img className=' absolute sm:-top-[40%] -top-[50%] right-[51%]  translate-x-[50%]' src={profile} alt="" style={{width:'360px'}} />
+  
 
-  <img className=' absolute -top-[40%] right-[51%]  translate-x-[50%]' src={profile} alt="" style={{width:'360px'}}  />
+  {/*name in mobile view  */}
+  <div className='absolute top-[25%] text-center sm:hidden'>
+<p className='text-start font-semibold'>Hello!</p>
+<h1 className='text-3xl font-bold'>I`m <span className='text-orange-500'>Amir Khodabande</span>,</h1>
+<h1 className='text-2xl font-bold'>
+<TypeAnimation
+      sequence={[
+        'Front-end Developer',
+        5000, 
+        'Photographer',
+        1000,
+        'Web Design & Develope',
+        1000,
+        'Javascript Developer',
+        1000
+      ]}
+      wrapper="span"
+      speed={5}
+      repeat={Infinity}
+    />
+</h1>
+
+</div>
+
+  
+
 
   <div className='w-[300px] md:w-[500px] h-[60px]  backdrop-blur-sm rounded-full flex justify-around items-center border-[#0000002b] border-2 absolute bottom-[50%] right-[50%]  translate-x-[50%] translate-y-[50%]'>
+
+
 
 <Link onMouseEnter={handlePortfolio} onMouseLeave={handlePortfolio} className=' text-xl rounded-full py-3 px-12 hover:bg-orange-400 hover:flex-1 text-black  duration-200 ease-in flex items-center hover:justify-end  hover:cursor-pointer'  to='Portfolio' duration={500} spy={true} smooth={true}>   
       Portfolio 
@@ -90,9 +120,10 @@ function Home() {
       Hire
       <img src={arrow} className={`${Portfolio2?'flex':'hidden'}`}   style={{width:"30px"}} alt="" />
  </Link>
-
  </div>
+ 
 </div>
+
 <div className='w-full h-[150px] rounded-t-3xl'>
   <img className='w-full h-full object-cover rounded-t-3xl ' src={img} alt="" />
 </div>

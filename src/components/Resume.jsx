@@ -11,7 +11,7 @@ function Resume() {
   
       <div id='Portfolio' className='mb-[80px] w-full h-full bg-white'>
 
-        
+
       <div className='flex flex-col mx-8 my-10'>
       <h1 className='md:text-5xl text-3xl text-[#344054] font-bold'>Lets have a look at </h1>
         <div className='flex justify-between md:'>
@@ -24,13 +24,13 @@ function Resume() {
 
         <div className='h-full flex justify-center items-center flex-wrap my-10'>
 
-        <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl '>
-        <div className='absolute  w-[500px] md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
+        <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl relative '>
+        <div className='absolute top-0 w-[500px] h-full md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
           <img className=' md:h-[280px] lg:h-[350px] border rounded-3xl object-cover ' src={portfolio} style={{width:'500px'}} alt="" />
         </div>
         
-        <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl '>
-        <div className='absolute  w-[500px] md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
+        <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl relative '>
+        <div className='absolute top-0 h-full w-[500px] md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
           <img className='md:h-[280px] lg:h-[350px] border rounded-3xl object-cover' src={rent} style={{width:'500px'}} alt="" />
           </div>
         </div>
@@ -45,12 +45,12 @@ function Resume() {
             <button className='my-2 md:my-0 mx-2 bg-[#F2F4F7] py-2 px-4 rounded-full  hover:bg-[#ffffff] shadow-sm hover:shadow-md' >Product Design</button>
             <button className='mx-2 bg-[#F2F4F7] py-2 px-4 rounded-full hover:bg-[#ffffff] shadow-sm hover:shadow-md' >Animation</button>
             <button className=' mx-2 bg-[#F2F4F7] py-2 px-4 rounded-full hover:bg-[#ffffff] shadow-sm hover:shadow-md' >Cards</button>
-            <button className='mx-2 bg-[#F2F4F7] py-2 px-4 rounded-full hover:bg-[#ffffff] shadow-sm hover:shadow-md' >Glassmorphism</button>
+            <button className='my-2 mx-2 bg-[#F2F4F7] py-2 px-4 rounded-full hover:bg-[#ffffff] shadow-sm hover:shadow-md' >Glassmorphism</button>
           </div>
         </div>
         <div className='my-10 flex flex-col items-center justify-center '>
-          <h1 className='text-2xl font-bold text-center'>WEEKAWAY - Lorem ipsum dolor sit amet.</h1>
-          <p className='max-w-[500px] line-clamp-3 text-wrap break-words text-center mt-4 text-[#3b3b3b]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aliquid maiores sequi obcaecati eos dignissimos adipisci nam numquam quasi sapiente ex, quod sunt ducimus voluptates deserunt nesciunt beatae aspernatur delectus eveniet corporis? Recusandae laborum ex quaerat fuga repudiandae quia asperiores. Quibusdam incidunt aliquam, deleniti omnis quidem voluptas optio animi tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est blanditiis quae minus nam asperiores quisquam sapiente sed harum ipsa.</p>
+          <h1 className='text-2xl font-bold text-center'>WEEKAWAY - Seamless escapes to unforgettable moments</h1>
+          <p className='max-w-[500px] md:max-w-[700px] text-wrap break-words text-center mt-4 text-[#3b3b3b]'>"Welcome to WeekAway, your go-to destination for hassle-free travel planning. At WeekAway, we specialize in curating unforgettable experiences, whether you're seeking a relaxing retreat or an adventure-packed getaway. Our user-friendly platform offers a wide range of options for booking tours and hotels, ensuring that every aspect of your trip is taken care of with ease. Say goodbye to the stress of travel planning and hello to seamless adventures with WeekAway.".</p>
         </div>
       </div>
 
