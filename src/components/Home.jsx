@@ -104,12 +104,12 @@ function Home() {
 </div>
 {/* portfolio and hire in mobile view */}
   <Link>
-  <button className=' text-white bg-[#f57627]  shadow-xl shadow-[#58331b5b] backdrop-blur-sm px-6 rounded-xl absolute top-[40%] left-[5%] text-lg  py-1 hover:bg-[#c86121] duration-200 ease-in-out'>
+  <button className=' text-white bg-[#f57627]  shadow-xl border border-[#ff6302] shadow-[#58331b5b] backdrop-blur-sm px-6 rounded-full absolute top-[45%] left-[20%] text-md py-1  hover:bg-[#c86121] duration-200 ease-in-out font-sans'>
     Portfolio
   </button>
   </Link>
   <Link>
-  <button className=' text-[#ff6302] border-2 border-dashed border-[#f57627] shadow-xl shadow-[#58331b5b]  px-6  rounded-xl absolute top-[40%] left-[36%] text-lg animate-bounce py-1 hover:bg-[#ffffff49] duration-200 ease-in-out'>
+  <button className=' text-[#ff6302] bg-transparent border border-[#ff6302]  shadow-xl shadow-[#58331b5b]  px-4  rounded-3xl absolute top-[45%] left-[52%] text-md py-1 hover:bg-[#ffffff49] duration-200 ease-in-out font-sans'>
     Hire
   </button>
   </Link>

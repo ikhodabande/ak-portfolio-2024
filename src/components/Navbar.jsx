@@ -102,7 +102,7 @@ function Navbar() {
 
      {/* mobileMenu */}
        
-        <ul className={menu?'flex flex-col w-screen h-screen bg-[#000000de] z-10 text-white text-center absolute top-0 py-[20%] text-2xl backdrop-blur-md':'hidden'}>
+        <ul className={menu?'flex flex-col w-screen h-full bg-[#000000de] z-10 text-white text-center absolute top-0 py-[20%] text-2xl backdrop-blur-md':'hidden'}>
 
         <Link onClick={handleMenu}  activeClass='active' to='Home' spy={true} duration={500} smooth={true} offset={-150} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-whitehover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Home</li>
