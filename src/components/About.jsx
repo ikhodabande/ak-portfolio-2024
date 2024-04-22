@@ -28,11 +28,13 @@ function About() {
             <div className='md:w-[550px] w-[60%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
               <div className='w-full flex justify-between items-center'>
                 <div className='flex flex-col'>
-                   <div className='flex items-center pt-8'>
+                   <div className='flex items-center pt-8 '>
                    <img className='w-[60px] rounded-full mx-4' src={salehprofile} alt="profile-img" />
-                      <div className='text-white text-start'>
-                        <h6 className='font-bold text-lg'>Saleh Bayat</h6>
-                        <p>AR/VR</p>
+                      <div className='text-start'>
+                      <a target='_blank' href="https://www.linkedin.com/in/salehbayat/">
+                        <h6 className='font-bold text-lg hover:cursor-pointer text-[#ffffff] hover:text-[#ffffffc0] duration-300 ease-out'>Saleh Bayat</h6>
+                        </a>
+                        <p className='text-[#ffffff]'>AR/VR</p>
                       </div>
                    </div>
                    <div className='flex items-center px-4 py-2 '>
@@ -52,11 +54,14 @@ function About() {
             <div className='md:w-[550px] w-[60%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
               <div className='w-full flex justify-between items-center'>
                 <div className='flex flex-col'>
-                   <div className='flex items-center pt-8'>
+                  
+                  <div className='flex items-center pt-8 '>
                    <img className='w-[60px] rounded-full mx-4' src={alirezaprofile} alt="profile-img" />
-                      <div className='text-white text-start'>
-                        <h6 className='font-bold text-lg'>Alireza Dashti1</h6>
-                        <p>Senior design engineer</p>
+                      <div className='text-start'>
+                      <a target='_blank' href="https://www.linkedin.com/in/ardashti/">
+                        <h6 className='font-bold text-lg hover:cursor-pointer text-[#ffffff] hover:text-[#ffffffc0] duration-300 ease-out'>Alireza Dashti1</h6>
+                        </a>
+                        <p className='text-[#ffffff]'>Construction Management engineer</p>
                       </div>
                    </div>
                    <div className='flex items-center px-4 py-2 '>
@@ -76,11 +81,13 @@ function About() {
             <div className='md:w-[550px] w-[60%] h-[55vh] md:h-[250px] bg-[#ffffff1c] rounded-xl m-2 grid grid-flow-row grid-rows-2 hover:scale-105 duration-200 ease-in-out backdrop-blur-sm'>
               <div className='w-full flex justify-between items-center'>
                 <div className='flex flex-col'>
-                   <div className='flex items-center pt-8'>
+                   <div className='flex items-center pt-8 '>
                    <img className='w-[60px] rounded-full mx-4' src={esiprofile} alt="profile-img" />
-                      <div className='text-white text-start'>
-                        <h6 className='font-bold text-lg'>Mohammad Hosein Esfahani</h6>
-                        <p>DevOps engineer</p>
+                      <div className='text-start'>
+                      <a target='_blank' href="https://www.linkedin.com/in/mhesfahani97/">
+                        <h6 className='  font-bold text-lg hover:cursor-pointer text-[#ffffff] hover:text-[#ffffffc0] duration-300 ease-out'>Mohammad Hosein Esfahani</h6>
+                        </a>
+                        <p className='text-[#ffffff] '>DevOps engineer</p>
                       </div>
                    </div>
                    <div className='flex items-center px-4 py-2 '>
