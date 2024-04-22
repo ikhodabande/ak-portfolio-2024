@@ -10,6 +10,8 @@ function Resume() {
   return (
   
       <div id='Portfolio' className='mb-[80px] w-full h-full bg-white'>
+
+        
       <div className='flex flex-col mx-8 my-10'>
       <h1 className='md:text-5xl text-3xl text-[#344054] font-bold'>Lets have a look at </h1>
         <div className='flex justify-between md:'>
@@ -17,10 +19,24 @@ function Resume() {
           <button onClick={handlePortfolio} 
           className='text-white bg-[#FD853A] font-semibold md:py-2 md:px-6 md:text-base rounded-full text-sm px-4 py-2 hover:bg-[#fc8f4b] hover:shadow-md '>See all</button>
         </div>
+
+
+
         <div className='h-full flex justify-center items-center flex-wrap my-10'>
-          <img className='mx-4 md:h-[280px] lg:h-[350px] border border-white rounded-3xl object-cover hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl' src={portfolio} style={{width:'500px'}} alt="" />
-          <img className='mx-4 md:h-[280px] lg:h-[350px] border border-white rounded-3xl object-cover hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:bg-[#F2F4F7]  hover:z-50 hover:shadow-2xl' src={rent} style={{width:'500px'}} alt="" />
+
+        <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl '>
+        <div className='absolute  w-[500px] md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
+          <img className=' md:h-[280px] lg:h-[350px] border rounded-3xl object-cover ' src={portfolio} style={{width:'500px'}} alt="" />
         </div>
+        
+        <div className='mx-4 hover:scale-105 duration-200 ease-in-out hover:cursor-pointer hover:z-50 hover:shadow-2xl shadow-black rounded-3xl '>
+        <div className='absolute  w-[500px] md:h-[280px] lg:h-[350px] bg-gradient-to-t from-[#000000bf] rounded-3xl text-[#dfdfdf] p-6 text-4xl content-end font-bold'>My Oldest Portfolio</div>
+          <img className='md:h-[280px] lg:h-[350px] border rounded-3xl object-cover' src={rent} style={{width:'500px'}} alt="" />
+          </div>
+        </div>
+
+
+
         <div>
           <div className='flex '>
           </div>

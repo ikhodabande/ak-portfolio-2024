@@ -1,5 +1,6 @@
 import React from 'react'
 import emailIcon from '../assestes/icons/Frame 325.png'
+import star from '../assestes/Star 1.png'
 
 function Projects() {
   return (
@@ -25,14 +26,25 @@ function Projects() {
 
      <div className='w-full h-[120px] bg-[#FB6514] rounded-3xl '>
         <div className='bg-white w-full flex items-center  overflow-x-scroll scroll md:overflow-x-hidden overflow-y-hidden h-[60px] my-6 -rotate-2 scrollvertical'>
-          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Web Developer</h6>
-          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Web Design</h6>
+          <img className='w-[30px]' src={star} alt="" />
+          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Next.js</h6>
+          <img className='w-[30px]' src={star} alt="" />
+          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'> vite.js</h6>
+          <img className='w-[30px]' src={star} alt="" />
           <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>TypeScript</h6>
-          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Front-end Developer</h6>
+          <img className='w-[30px]' src={star} alt="" />
+          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Responsive</h6>
+          <img className='w-[30px]' src={star} alt="" />
           <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>React</h6>
+          <img className='w-[30px]' src={star} alt="" />
           <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>JavaScript</h6>
-          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Tailwind CSS </h6>
+          <img className='w-[30px]' src={star} alt="" />
+          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Tailwind</h6>
+          <img className='w-[30px]' src={star} alt="" />
           <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Bootstrap</h6>
+          <img className='w-[30px]' src={star} alt="" />
+          <h6 className='px-4 pt-1 text-sm md:text-3xl -rotate-1'>Redux</h6>
+          <img className='w-[30px]' src={star} alt="" />
         </div>
      </div>
    </div>
