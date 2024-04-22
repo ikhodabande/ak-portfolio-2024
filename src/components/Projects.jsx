@@ -7,7 +7,7 @@ function Projects() {
   
     <div id='Project' className='w-full h-screen bg-white flex flex-col justify-around'>
      
-     <div className='md:text-6xl text-3xl font-bold text-center '>
+     <div className='md:text-6xl text-2xl font-bold text-center '>
        <h1>Have an Awesome Project</h1>
        <h1 className='my-2'>Idea?<span className='text-[#FD853A]'>Let`s Discuss</span></h1>
      </div>

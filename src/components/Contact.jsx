@@ -66,15 +66,15 @@ function Contact() {
               <div className='px-10 md:px-0 flex'>
                 <input className='outline-none bg-[#fffffff1] py-2 pl-4 pr-20 rounded-xl text-black placeholder-black' type="email" placeholder='Email Address'/>
                 <a href="www.amimhmdkh@gmail.com" target="_blank" rel="noreferrer">
-                <img className='-ml-4 h-full' src={sendIcon} style={{width:'60px'}} alt="" />
+                <img className='-ml-4 h-full w-[80px]' src={sendIcon}  alt="" />
                 </a>
               </div>
             </div>
            </div>
            <div className='w-full md:max-w-[1500px] grid grid-cols-2 md:gap-8'>
-            <p className='text-white py-10 md:pt-20 md:text-start text-center text-sm md:text-base  '>Copyright  2024 Khodabande. All Rights Reserved.</p>
+            <p className='text-white pl-2 py-10 md:pt-20 md:text-start text-center text-sm md:text-base  max-w-[180px] sm:max-w-full'>Copyright  2024 Khodabande. All Rights Reserved.</p>
 
-            <p className='text-white py-10 md:pt-20  md:text-end text-center text-sm'>User Terms & Conditions | Privacy Policy
+            <p className='text-white py-10 md:pt-20  md:text-end text-center text-sm max-w-[180px] sm:max-w-full'>User Terms & Conditions | Privacy Policy
             </p>
            </div>
         </div>

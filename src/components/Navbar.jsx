@@ -67,8 +67,9 @@ function Navbar() {
       </div>
       {/* on mobile view */}
 
-      <div className='flex sm:hidden pt-8 justify-between items-center'>
-      <div onMouseEnter={handleLogo} onMouseLeave={handleLogo} className='flex justify-start ml-6 lg:justify-center items-center lg:ml-0 '>
+      <div className='sm:hidden pt-8 items-center'>
+        <div className='flex justify-between'>
+           <div onMouseEnter={handleLogo} onMouseLeave={handleLogo} className='flex justify-start ml-6 lg:justify-center items-center lg:ml-0 '>
         <img  src={Logo} alt="" style={{width:'30px'}}/>
         <div className=''>
           {
@@ -89,15 +90,27 @@ function Navbar() {
       
       </div>
 
-      {/* hamberger icon */}
-      
-     <button className='mr-6 z-50' onClick={handleMenu} >
+      {/* hamberger icon */}  
+     <button className='mr-6 z-20' onClick={handleMenu} >
      {
-        menu ? <IoCloseSharp className='' /> : <GiHamburgerMenu  className='text-lg '/>
+        menu ? <IoCloseSharp className='text-lg text-white' /> : <GiHamburgerMenu  className='text-lg '/>
       }
-    
      </button>
-    
+        </div>
+     
+
+
+     {/* mobileMenu */}
+       
+        <ul className={menu?'flex flex-col w-screen h-screen bg-[#000000de] z-10 text-white text-center absolute top-0 py-[20%] text-2xl backdrop-blur-md':'hidden'}>
+          <li className='py-6 px-10 hover:shadow-xl hover:outline-whitehover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Home</li>
+          <li className='py-6 px-10 hover:shadow-xl hover:outline-white hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>About</li>
+          <li className='py-6 px-10 hover:shadow-xl hover:outline-white hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Services</li>
+          <li className='py-6 px-10 hover:shadow-xl hover:outline-whitehover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Resume</li>
+          <li className='py-6 px-10 hover:shadow-xl hover:outline-white hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Projects</li>
+          <li className='py-6 px-10 hover:shadow-xl hover:outline-whiteorder-none outline-none  hover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Contact</li>
+        </ul>
+       
       </div>
 
     </div>
