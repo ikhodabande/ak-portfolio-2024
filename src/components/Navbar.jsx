@@ -1,13 +1,18 @@
 import React, { useState } from 'react'
 import Logo from '../assestes/Frame 55.png'
 import { Link } from 'react-scroll'
-
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoCloseSharp } from "react-icons/io5";
 
 function Navbar() {
-  const[Profile, setProfile] = useState(false)
+  const[Profile, setProfile] = useState(false);
+  const[menu, setMenu] = useState(false);
 
   const handleLogo = () => setProfile(!Profile);
+
+  const handleMenu = () =>{
+    setMenu(!menu);
+  } 
 
   return ( 
     <div className='w-full h-[70px]'>
@@ -85,7 +90,14 @@ function Navbar() {
       </div>
 
       {/* hamberger icon */}
-      <div className='mr-6'>hsdf</div>
+      
+     <button className='mr-6 z-50' onClick={handleMenu} >
+     {
+        menu ? <IoCloseSharp className='' /> : <GiHamburgerMenu  className='text-lg '/>
+      }
+    
+     </button>
+    
       </div>
 
     </div>
