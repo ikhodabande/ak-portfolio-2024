@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/ak-portfolio-2024/static/css/main.1a13f07b.css",
-    "main.js": "/ak-portfolio-2024/static/js/main.e5d81e5a.js",
+    "main.css": "/ak-portfolio-2024/static/css/main.d266ad3f.css",
+    "main.js": "/ak-portfolio-2024/static/js/main.8825079f.js",
+    "static/media/codding-front-end.mov": "/ak-portfolio-2024/static/media/codding-front-end.5c3d3931014295ea5a0e.mov",
+    "static/media/02.jpg": "/ak-portfolio-2024/static/media/02.3443716af6d9b0742879.jpg",
+    "static/media/rent.png": "/ak-portfolio-2024/static/media/rent.b4d587b1ba27127bfbaf.png",
+    "static/media/netflix.png": "/ak-portfolio-2024/static/media/netflix.0ff151a1e869bc7d9bd1.png",
+    "static/media/Frame 68.png": "/ak-portfolio-2024/static/media/Frame 68.e9d8b7f99a8774154e00.png",
+    "static/media/profileImg.png": "/ak-portfolio-2024/static/media/profileImg.4efa816436830fc5dac0.png",
+    "static/media/portfolio.png": "/ak-portfolio-2024/static/media/portfolio.5e3925eb432bb83bbc2c.png",
+    "static/media/user.png": "/ak-portfolio-2024/static/media/user.343549ed4aaa875e37fa.png",
+    "static/media/Frame 11.png": "/ak-portfolio-2024/static/media/Frame 11.eb49aa95ec5717803c30.png",
     "index.html": "/ak-portfolio-2024/index.html",
-    "main.1a13f07b.css.map": "/ak-portfolio-2024/static/css/main.1a13f07b.css.map",
-    "main.e5d81e5a.js.map": "/ak-portfolio-2024/static/js/main.e5d81e5a.js.map"
+    "main.d266ad3f.css.map": "/ak-portfolio-2024/static/css/main.d266ad3f.css.map",
+    "main.8825079f.js.map": "/ak-portfolio-2024/static/js/main.8825079f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a13f07b.css",
-    "static/js/main.e5d81e5a.js"
+    "static/css/main.d266ad3f.css",
+    "static/js/main.8825079f.js"
   ]
 }
