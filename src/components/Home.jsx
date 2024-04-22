@@ -82,7 +82,7 @@ function Home() {
   {/*name in mobile view  */}
   <div className='absolute top-[20%] text-center sm:hidden'>
 <p className='text-start font-semibold'>Hello!</p>
-<h1 className='text-3xl font-bold'>I`m <span className='text-orange-500'>Amir Khodabande</span>,</h1>
+<h1 className='text-3xl font-bold '>I`m <span className='text-orange-500 '>Amir Khodabande</span>,</h1>
 <h1 className='text-2xl font-bold'>
 <TypeAnimation
       sequence={[
@@ -102,11 +102,20 @@ function Home() {
 </h1>
 
 </div>
+{/* portfolio and hire in mobile view */}
+  <Link>
+  <button className=' text-white bg-[#f57627]  shadow-xl shadow-[#58331b5b] backdrop-blur-sm px-6 rounded-xl absolute top-[40%] left-[5%] text-lg  py-1 hover:bg-[#c86121] duration-200 ease-in-out'>
+    Portfolio
+  </button>
+  </Link>
+  <Link>
+  <button className=' text-[#ff6302] border-2 border-dashed border-[#f57627] shadow-xl shadow-[#58331b5b]  px-6  rounded-xl absolute top-[40%] left-[36%] text-lg animate-bounce py-1 hover:bg-[#ffffff49] duration-200 ease-in-out'>
+    Hire
+  </button>
+  </Link>
 
-  
 
-
-  <div className='w-[300px] md:w-[500px] h-[60px]  backdrop-blur-sm rounded-full flex justify-around items-center border-[#0000002b] border-2 absolute bottom-[50%] right-[50%]  translate-x-[50%] translate-y-[50%]'>
+  <div className='w-[300px] md:w-[500px] h-[60px]  backdrop-blur-sm rounded-full hidden sm:flex justify-around items-center border-[#0000002b] border-2 absolute bottom-[50%] right-[50%]  translate-x-[50%] translate-y-[50%]'>
 
 
 
