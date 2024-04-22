@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assestes/Frame 55.png'
 import sendIcon from '../assestes/icons/Frame 332.png'
+import { Link } from 'react-scroll'
 
 function Contact() {
   return (
@@ -43,19 +44,29 @@ function Contact() {
              <div className=''>
               <h6 className='font-semibold text-start text-[#FD853A] px-10 pb-2 md:pb-4'>Contact</h6>
               <ul className='text-start leading-[8px]'>
-                <li><a href="tel:+98919-661-0079">&#9743; Call Me</a></li>
-                <li>Amimhmkh@gmail.com</li>
-                <li><a href="https://amirmkhodabande.ir">Amimkhodabande.ir</a></li>
+                <li><a href="tel:+98919-661-0079" className='hover:text-[#ffffffb5]'>&#9743; Call Me</a></li>
+                <li >Amimhmkh@gmail.com</li>
+                <li><a className='hover:text-[#ffffffb5]' href="https://ikhodabande.ir">www.ikhodabande.ir</a></li>
               </ul>
 
               <h6 className='font-semibold text-start text-[#FD853A] px-10 pb-2 mt-10 md:hidden'>Navigations</h6>
               
               <ul className='text-start leading-[8px] md:hidden'>
+              <Link className='hover:cursor-pointer' activeClass='active' to='Home' spy={true} duration={500} smooth={true} offset={-150} >
                 <li>Home</li>
+                 </Link>
+                 <Link className='hover:cursor-pointer' activeClass='active' to='About' spy={true} duration={500} smooth={true}>
                 <li>About Us</li>
+                </Link>
+                <Link className='hover:cursor-pointer' activeClass='active' to='Services' spy={true} duration={500} smooth={true} >
                 <li>Service</li>
+                </Link>
+                <Link className='hover:cursor-pointer' activeClass='active' to='Resume' spy={true} duration={500} smooth={true} >
                 <li>Resume</li>
+                </Link>
+                <Link className='hover:cursor-pointer' activeClass='active' to='Project' spy={true} duration={500} smooth={true} >
                 <li>Project</li>
+                </Link>
               </ul>
              
             </div>
