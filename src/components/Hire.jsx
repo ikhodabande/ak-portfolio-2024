@@ -21,7 +21,7 @@ function Hire() {
         </div>
 
         <div className='w-full h-screen md:w-auto flex flex-col justify-center items-start px-4 md:px-0 md:mt-0 sm:-mt-[340px] -mt-[220px]'>
-          <h1 className='md:text-5xl text-3xl font-bold md:mb-10 sm:mb-[300px] mb-[250px]'>Why <span className='text-[#FD853A]'>Hire Me?</span></h1>
+          <h1 className='md:text-5xl text-3xl font-bold md:mb-10 sm:mb-[300px] mb-[240px]'>Why <span className='text-[#FD853A]'>Hire Me?</span></h1>
           <p className='mb-10 max-w-[500px] text-[#3b3b3b]'>Front-End Developer, Web Designer, and Photographer.Passionate about delivering exceptional digital experiences. <br /> With a keen eye for detail and a commitment to excellence, I bring creativity, expertise, and dedication to every project. <br /> Let's turn your vision into reality together!</p>
 
           <div className='w-full flex justify-between'>
@@ -36,7 +36,7 @@ function Hire() {
           </div>
           <a href="https://www.linkedin.com/in/amikhodabande/" target="_blank" rel="noreferrer">
           <button 
-          className='my-10 text-xl font-semibold border border-[#1a1a1a] rounded-3xl px-[120px] md:px-10 py-4 hover:bg-[#FD853A] duration-200 ease-in-out hover:text-white hover:border-[#FD853A] hover:shadow-md hover:scale-105'>
+          className='mb-20 mt-10 text-xl font-semibold border border-[#1a1a1a] rounded-3xl px-[135px] md:px-10 py-4 hover:bg-[#FD853A] duration-200 ease-in-out hover:text-white hover:border-[#FD853A] hover:shadow-md hover:scale-105'>
             Hire me
             </button>
           </a>
