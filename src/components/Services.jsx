@@ -6,13 +6,13 @@ import userImg from '../assestes/projects/user.png'
 import arrowIcon from '../assestes/icons/arrowIcon.png'
 
 
+
 function Services() {
   return (
-   
-     <div id='Services'name='Services' className='w-full sm:h-full h-screen relative lg:-mt-10 -mt-[100px]'>
+     <div id='Services'name='Services' className='hidden sm:block w-full sm:h-full h-screen relative lg:-mt-10 -mt-[100px]'>
 
 {/* background Images and abstracts */}
-<img className='w-full lg:h-screen h-screen lg:object-cover lg:rounded-b-3xl' src={img} alt="" /> 
+<img className='w-full  lg:h-screen h-screen lg:object-cover lg:rounded-b-3xl' src={img} alt="" /> 
 
 {/* title and paragraphs  */}
 <div className='w-full  flex absolute top-4 justify-between px-8 lg:px-[80px] '>
@@ -20,15 +20,10 @@ function Services() {
 <p className='text-white pt-4  text-sm hidden sm:flex'>Crafting visually stunning websites,<br /> intuitive interfaces, and captivating visuals to elevate your digital presence. <br /> Let's collaborate to bring your vision to life!</p>
 </div>
 
-{/* cards in mobile view */}
-<div className='sm:hidden w-full h-full absolute top-0 flex pt-[100px] items-center justify-center'>
-   <div className='w-[70%] h-[90%] bg-white  flex-1'></div>
-   <div className='w-[70%] h-[90%] bg-black mx-4 '></div>
-   <div className='w-[70%] h-[90%] bg-white  flex-1'></div>
-</div>
+
 
 {/* cards and abstracts */}
-<div className='hidden sm:flex w-full max-w-[1200px]  h-[50%]  justify-around lg:flex-nowrap flex-wrap items-center absolute top-[50%] -translate-y-[80%]  lg:-translate-y-[40%] left-[50%] -translate-x-[50%] bg-transparent '>
+<div className='flex w-full max-w-[1200px]  h-[50%]  justify-around lg:flex-nowrap flex-wrap items-center absolute top-[50%] -translate-y-[80%]  lg:-translate-y-[40%] left-[50%] -translate-x-[50%] bg-transparent '>
 
   {/* card 1 */}
  <div className='w-[80%] md:w-[416px] sm:h-[400px] h-[350px] lg:h-[508px] bg-[#ffffff16] backdrop-blur-sm rounded-[5%] text-white border border-[#ffffff60] my-4 mx-2 sm:hover:scale-105 duration-200 ease-in hover:cursor-pointer hover:backdrop-blur-md hover:shadow-xl relative'>

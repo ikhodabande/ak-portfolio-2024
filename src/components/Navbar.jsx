@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Logo from '../assestes/Frame 55.png'
 import { Link } from 'react-scroll'
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -7,6 +7,33 @@ import { IoCloseSharp } from "react-icons/io5";
 function Navbar() {
   const[Profile, setProfile] = useState(false);
   const[menu, setMenu] = useState(false);
+  const[navchange, setNavchange ]= useState(true);
+  
+
+  let prev = window.pageYOffset;
+
+  const changeNav = () => {
+    let currentOffset = window.scrollY;
+    if (prev < currentOffset) {
+      setNavchange(true);
+    } else {
+      // Use a setTimeout to delay setting navchange to false
+      setTimeout(() => {
+        if(currentOffset==0){
+          setNavchange(true)
+        }else{
+          setNavchange(false);
+        }
+        
+      }, 1000);
+    }
+    prev = currentOffset;
+  };
+ 
+
+  useEffect(()=>{
+     window.addEventListener("scroll",changeNav);
+  },[])
 
   // logo fade in fade out
   const handleLogo = () => setProfile(!Profile);
@@ -64,11 +91,11 @@ function Navbar() {
 
     {/*---------navbar on mobile view-------------- */}
 
-    <div className='fixed top-0 z-50 bg-[#fff] h-[45px] w-full sm:hidden pt-2 box-shadow'>
-        <div className='flex justify-between'>
+    <div  className={`${navchange?'fixed top-0 z-50 bg-[#fff] h-[45px] w-full sm:hidden pt-2  duration-200 ease-in-out':"hidden"}`}>
+        <div  className='flex justify-between'>
            <div onMouseEnter={handleLogo} onMouseLeave={handleLogo} className='flex justify-start ml-2 lg:justify-center items-center lg:ml-0 '>
             
-             <img  src={Logo} alt="" style={{width:'30px'}}/>
+             <img src={Logo} alt="" style={{width:'30px'}}/>
 
                <div>
                  {  Profile ?
@@ -96,7 +123,7 @@ function Navbar() {
 
      {/*------- mobileMenu li lists */}
        
-        <ul className={menu?'flex flex-col w-screen h-full bg-[#000000de] z-10 text-white text-center fixed top-0 py-[20%] text-2xl backdrop-blur-md ':'hidden'}>
+        <ul className={menu?'flex flex-col w-screen h-full bg-[#000000de] z-10 text-white text-center fixed top-0 py-[20%] text-2xl backdrop-blur-md  ':'hidden'}>
 
         <Link onClick={handleMenu}  activeClass='active' to='Home' spy={true} duration={500} smooth={true} offset={-150} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-whitehover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Home</li>
