@@ -4,11 +4,34 @@ import frontImg from '../assestes/projects/rent.png'
 import WebImg from '../assestes/projects/netflix.png'
 import userImg from '../assestes/projects/user.png'
 import arrowIcon from '../assestes/icons/arrowIcon.png'
+import Slides from './Slides'
 
 
+const slides = [
+  WebImg ,
+  userImg,
+  frontImg,
+]
 
 function Services() {
   return (
+     <>
+    {/* Mobile view services */}
+    <div name='Services' className='w-full h-screen  bg-white'>
+         <main className='App'>
+            <div className='max-w-lg'>
+              <Slides>
+              {
+                slides.map((s)=>(
+                 <img src={s} />
+                ))
+              }
+              </Slides>
+            </div>
+          </main> 
+    </div>
+
+
      <div id='Services'name='Services' className='hidden sm:block w-full sm:h-full h-screen relative lg:-mt-10 -mt-[100px]'>
 
 {/* background Images and abstracts */}
@@ -20,6 +43,7 @@ function Services() {
 <p className='text-white pt-4  text-sm hidden sm:flex'>Crafting visually stunning websites,<br /> intuitive interfaces, and captivating visuals to elevate your digital presence. <br /> Let's collaborate to bring your vision to life!</p>
 </div>
 
+<Slides></Slides>
 
 
 {/* cards and abstracts */}
@@ -74,7 +98,7 @@ function Services() {
 
 
  </div> 
-  
+  </>
   )
 }
 

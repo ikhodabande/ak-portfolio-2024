@@ -136,7 +136,7 @@ function Home() {
 </div>
 
 <div className='w-full h-[150px] rounded-t-3xl'>
-  <img className='w-full h-full object-cover rounded-t-3xl ' src={img} alt="" />
+  <img className='hidden sm:flex w-full h-full object-cover rounded-t-3xl ' src={img} alt="" />
 </div>
 </div>
 </div>
