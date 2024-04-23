@@ -80,17 +80,17 @@ function Home() {
   
 
   {/*name in mobile view  */}
-  <div className='absolute top-[20%] text-center sm:hidden'>
-<p className='text-start font-semibold'>Hello!</p>
-<h1 className='text-3xl font-bold '>I`m <span className='text-orange-500 '>Amir Khodabande</span>,</h1>
-<h1 className='text-2xl font-bold'>
+  <div className='absolute top-[24%] text-center sm:hidden'>
+<p className='text-start w-12 font-semibold bg-[#fff]'>Hello!</p>
+<h1 className='text-3xl font-bold bg-[#fff]'>I`m <span className='text-orange-500 '>Amir Khodabande</span>,</h1>
+<h1 className='text-3xl text-start font-bold bg-[#fff]'>
 <TypeAnimation
       sequence={[
         'Front-end Developer',
         5000, 
         'Photographer',
         1000,
-        'Web Design & Develope',
+        'React Developer',
         1000,
         'Javascript Developer',
         1000
@@ -103,17 +103,19 @@ function Home() {
 
 </div>
 {/* portfolio and hire in mobile view */}
-  <Link>
-  <button className=' text-white bg-[#f57627]  shadow-xl border border-[#ff6302] shadow-[#58331b5b] backdrop-blur-sm px-6 rounded-full absolute top-[45%] left-[20%] text-md py-1  hover:bg-[#c86121] duration-200 ease-in-out font-sans'>
+ <div className='flex sm:hidden absolute top-[45%] left-[20%]'>
+ <Link>
+  <button className=' text-white bg-[#f57627]  shadow-xl border border-[#ff6302] shadow-[#58331b5b] backdrop-blur-sm mx-6 px-6 rounded-full  text-md py-1  hover:bg-[#c86121] duration-200 ease-in-out font-sans'>
     Portfolio
   </button>
   </Link>
   <Link>
-  <button className=' text-[#ff6302] bg-transparent border border-[#ff6302]  shadow-xl shadow-[#58331b5b]  px-4  rounded-3xl absolute top-[45%] left-[52%] text-md py-1 hover:bg-[#ffffff49] duration-200 ease-in-out font-sans'>
+  <button className=' text-[#ff6302] bg-transparent border border-[#ff6302]  shadow-xl shadow-[#58331b5b]  px-4  rounded-3xl  text-md py-1 hover:bg-[#ffffff49] duration-200 ease-in-out font-sans'>
     Hire
   </button>
   </Link>
 
+ </div>
 
   <div className='w-[300px] md:w-[500px] h-[60px]  backdrop-blur-sm rounded-full hidden sm:flex justify-around items-center border-[#0000002b] border-2 absolute bottom-[50%] right-[50%]  translate-x-[50%] translate-y-[50%]'>
 

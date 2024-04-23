@@ -9,19 +9,26 @@ import arrowIcon from '../assestes/icons/arrowIcon.png'
 function Services() {
   return (
    
-     <div id='Services'name='Services' className='w-full h-full relative lg:-mt-10 -mt-[100px]'>
+     <div id='Services'name='Services' className='w-full sm:h-full h-screen relative lg:-mt-10 -mt-[100px]'>
 
 {/* background Images and abstracts */}
-<img className='w-full lg:h-screen h-full lg:object-cover lg:rounded-b-3xl' src={img} alt="" /> 
+<img className='w-full lg:h-screen h-screen lg:object-cover lg:rounded-b-3xl' src={img} alt="" /> 
 
 {/* title and paragraphs  */}
-<div className='w-full h-full flex absolute top-4 justify-between px-8 lg:px-[80px] '>
+<div className='w-full  flex absolute top-4 justify-between px-8 lg:px-[80px] '>
 <h1 className='text-white font-bold md:text-5xl text-4xl sm:pt-4 pt-10'>My <span className='text-orange-500'>Services</span></h1>
 <p className='text-white pt-4  text-sm hidden sm:flex'>Crafting visually stunning websites,<br /> intuitive interfaces, and captivating visuals to elevate your digital presence. <br /> Let's collaborate to bring your vision to life!</p>
 </div>
 
+{/* cards in mobile view */}
+<div className='sm:hidden w-full h-full absolute top-0 flex pt-[100px] items-center justify-center'>
+   <div className='w-[70%] h-[90%] bg-white  flex-1'></div>
+   <div className='w-[70%] h-[90%] bg-black mx-4 '></div>
+   <div className='w-[70%] h-[90%] bg-white  flex-1'></div>
+</div>
+
 {/* cards and abstracts */}
-<div className='w-full max-w-[1200px]  h-[50%]  flex justify-around lg:flex-nowrap flex-wrap items-center absolute top-[50%] -translate-y-[80%]  lg:-translate-y-[40%] left-[50%] -translate-x-[50%] bg-transparent '>
+<div className='hidden sm:flex w-full max-w-[1200px]  h-[50%]  justify-around lg:flex-nowrap flex-wrap items-center absolute top-[50%] -translate-y-[80%]  lg:-translate-y-[40%] left-[50%] -translate-x-[50%] bg-transparent '>
 
   {/* card 1 */}
  <div className='w-[80%] md:w-[416px] sm:h-[400px] h-[350px] lg:h-[508px] bg-[#ffffff16] backdrop-blur-sm rounded-[5%] text-white border border-[#ffffff60] my-4 mx-2 sm:hover:scale-105 duration-200 ease-in hover:cursor-pointer hover:backdrop-blur-md hover:shadow-xl relative'>
@@ -68,7 +75,7 @@ function Services() {
 </div>
 
 {/* bg-image in tablet screen */}
-<img className='lg:hidden w-full md:h-[400px] h-[920px] object-cover rounded-b-3xl ' src={img} alt="" /> 
+<img className='hidden sm:flex lg:hidden w-full md:h-[400px] h-[920px] object-cover rounded-b-3xl ' src={img} alt="" /> 
 
 
  </div> 
