@@ -2,7 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { CiCircleChevLeft } from "react-icons/ci";
 import { CiCircleChevRight } from "react-icons/ci";
 
-
+const titles = [
+  'Front-end Developer',
+  'React Developer',
+  'WebDesign',
+  'Photographer',
+]
 
 const Slides = ({
   children:slides,
@@ -10,12 +15,19 @@ const Slides = ({
   autoSlideInterval = 3000,
 }) => {
   const[curr, setCurr] = useState(0)
+  const[tile, setTile] = useState(0)
 
-  const prev = () =>
-   setCurr((curr)=>(curr == 0 ? slides.length - 1 : curr - 1))
-
-  const next = () =>
-   setCurr((curr)=>(curr == slides.length - 1 ? 0 : curr + 1))
+  const prev = () =>{
+    setCurr((curr)=>(curr == 0 ? slides.length - 1 : curr - 1))
+    setTile((tile)=>tile == 0 ? titles.length -1 : tile - 1)
+  }
+   
+   
+  const next = () =>{
+    setCurr((curr)=>(curr == slides.length - 1 ? 0 : curr + 1))
+    setTile((tile)=>tile == titles.length -1 ? 0 : tile + 1)
+  }
+   
 
    useEffect(()=>{
     if(!autoSlide) return 
@@ -38,6 +50,16 @@ const Slides = ({
         <CiCircleChevRight  size={40}/>
       </button>
     </div>
+
+    {/* <div className='absolute bottom-8 right-0 left-0' style={{ transform:`translateX(-${tile * 100}%)` }}>
+        <div className=''>
+        {
+                titles.map((t,i)=>(
+                  <h1 className='text-xl text-white'>{t}</h1>
+                ))
+        }
+        </div>
+    </div> */}
 
     <div className='absolute bottom-4 right-0 left-0'>
        <div className="flex items-center justify-center gap-2">

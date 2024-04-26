@@ -17,6 +17,8 @@ const slides = [
   cobit,
 ]
 
+
+
 function Services() {
   return (
      <>
@@ -25,14 +27,14 @@ function Services() {
     <h1 className='absolute left-5 top-0 z-10 text-white font-bold md:text-5xl text-4xl sm:pt-4 pt-10'>My <span className='text-orange-500'>Services</span></h1>
          <main className='App absolute top-[55%] -translate-y-[50%]'>
             <div className='max-w-lg'>
-              <Slides  autoSlide={false} autoSlideInterval={1000}>
-                
+              <Slides  autoSlide={true} autoSlideInterval={1000}>
               {
                 slides.map((s)=>(
                  <img className='rounded-3xl p-2' src={s} />
                 ))
               }
               </Slides>
+        
             </div>
           </main> 
 
