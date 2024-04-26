@@ -26,6 +26,7 @@ function Services() {
          <main className='App absolute top-[55%] -translate-y-[50%]'>
             <div className='max-w-lg'>
               <Slides  autoSlide={false} autoSlideInterval={1000}>
+                
               {
                 slides.map((s)=>(
                  <img className='rounded-3xl p-2' src={s} />

@@ -25,6 +25,7 @@ const Slides = ({
 
   return (
     <div className='overflow-hidden relative sm:hidden'>
+      
     <div className='flex transition-transform ease-in-out duration-500'
     style={{ transform:`translateX(-${curr * 100}%)` }}>
             {slides} 
