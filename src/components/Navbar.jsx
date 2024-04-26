@@ -91,7 +91,7 @@ function Navbar() {
 
     {/*---------navbar on mobile view-------------- */}
 
-    <div  className={`${navchange?'fixed top-0 z-50 bg-[#fff] h-[45px] w-full sm:hidden pt-2  duration-200 ease-in-out':"hidden"}`}>
+    <div  className={`${navchange?'fixed  top-0 z-50 bg-[#fff] h-[45px] w-full sm:hidden pt-2  duration-200 ease-in-out transition-all':" hidden"}`}>
         <div  className='flex justify-between'>
            <div onMouseEnter={handleLogo} onMouseLeave={handleLogo} className='flex justify-start ml-2 lg:justify-center items-center lg:ml-0 '>
             
@@ -123,7 +123,7 @@ function Navbar() {
 
      {/*------- mobileMenu li lists */}
        
-        <ul className={menu?'flex flex-col w-screen h-full bg-[#000000de] z-10 text-white text-center fixed top-0 py-[20%] text-2xl backdrop-blur-md  ':'hidden'}>
+        <ul className={menu?'flex flex-col w-screen h-full bg-[#000000de] z-10 text-white text-center fixed  top-0 py-[20%] text-2xl backdrop-blur-md transition-[0.5]  ':' absolute right-[0px] -top-[500px] '}>
 
         <Link onClick={handleMenu}  activeClass='active' to='Home' spy={true} duration={500} smooth={true} offset={-150} >
           <li className='py-6 px-10 hover:shadow-xl hover:outline-whitehover:scale-105 duration-200 ease-in-out hover:bg-[#0505054f] hover:cursor-pointer'>Home</li>

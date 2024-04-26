@@ -3,6 +3,7 @@ import rent from '../assestes/rent.png'
 import portfolio from '../assestes/portfolio.png'
 
 function Resume() {
+  
 
   const handlePortfolio =()=>{
     console.log('hello here')

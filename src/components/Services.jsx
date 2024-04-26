@@ -5,30 +5,40 @@ import WebImg from '../assestes/projects/netflix.png'
 import userImg from '../assestes/projects/user.png'
 import arrowIcon from '../assestes/icons/arrowIcon.png'
 import Slides from './Slides'
+import cobit from '../assestes/projects/CoBit preview.png'
+import weekaway from '../assestes/projects/Weekaway.png'
+import usermanagement from '../assestes/projects/Usermanagement.png'
 
 
 const slides = [
   WebImg ,
-  userImg,
-  frontImg,
+  usermanagement,
+  weekaway,
+  cobit,
 ]
 
 function Services() {
   return (
      <>
     {/* Mobile view services */}
-    <div name='Services' className='w-full h-screen  bg-white'>
-         <main className='App'>
+    <div id='Services'  name='Services' className='w-full h-screen  bg-white relative sm:hidden -mt-[100px]'>
+    <h1 className='absolute left-5 top-0 z-10 text-white font-bold md:text-5xl text-4xl sm:pt-4 pt-10'>My <span className='text-orange-500'>Services</span></h1>
+         <main className='App absolute top-[55%] -translate-y-[50%]'>
             <div className='max-w-lg'>
-              <Slides>
+              <Slides  autoSlide={false} autoSlideInterval={1000}>
               {
                 slides.map((s)=>(
-                 <img src={s} />
+                 <img className='rounded-3xl p-2' src={s} />
                 ))
               }
               </Slides>
             </div>
           </main> 
+
+          {/* bg-image in tablet screen */}
+<img className=' lg:hidden w-full h-full object-cover rounded-b-3xl ' src={img} alt="" /> 
+
+
     </div>
 
 
