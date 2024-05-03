@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ak-portfolio-2024/static/css/main.6fbc7601.css",
-    "main.js": "/ak-portfolio-2024/static/js/main.67452f30.js",
+    "main.css": "/ak-portfolio-2024/static/css/main.236433f3.css",
+    "main.js": "/ak-portfolio-2024/static/js/main.442e8347.js",
     "static/media/codding-front-end.mov": "/ak-portfolio-2024/static/media/codding-front-end.5c3d3931014295ea5a0e.mov",
     "static/media/02.jpg": "/ak-portfolio-2024/static/media/02.3443716af6d9b0742879.jpg",
     "static/media/rent.png": "/ak-portfolio-2024/static/media/rent.b4d587b1ba27127bfbaf.png",
@@ -19,11 +19,11 @@
     "static/media/mhesfahani.jpg": "/ak-portfolio-2024/static/media/mhesfahani.2bcfa0900accff1ddcad.jpg",
     "static/media/Frame 11.png": "/ak-portfolio-2024/static/media/Frame 11.eb49aa95ec5717803c30.png",
     "index.html": "/ak-portfolio-2024/index.html",
-    "main.6fbc7601.css.map": "/ak-portfolio-2024/static/css/main.6fbc7601.css.map",
-    "main.67452f30.js.map": "/ak-portfolio-2024/static/js/main.67452f30.js.map"
+    "main.236433f3.css.map": "/ak-portfolio-2024/static/css/main.236433f3.css.map",
+    "main.442e8347.js.map": "/ak-portfolio-2024/static/js/main.442e8347.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fbc7601.css",
-    "static/js/main.67452f30.js"
+    "static/css/main.236433f3.css",
+    "static/js/main.442e8347.js"
   ]
 }
