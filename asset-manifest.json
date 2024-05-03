@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ak-portfolio-2024/static/css/main.236433f3.css",
-    "main.js": "/ak-portfolio-2024/static/js/main.442e8347.js",
-    "static/media/codding-front-end.mov": "/ak-portfolio-2024/static/media/codding-front-end.5c3d3931014295ea5a0e.mov",
-    "static/media/02.jpg": "/ak-portfolio-2024/static/media/02.3443716af6d9b0742879.jpg",
-    "static/media/rent.png": "/ak-portfolio-2024/static/media/rent.b4d587b1ba27127bfbaf.png",
-    "static/media/netflix.png": "/ak-portfolio-2024/static/media/netflix.0ff151a1e869bc7d9bd1.png",
-    "static/media/Weekaway.png": "/ak-portfolio-2024/static/media/Weekaway.9125fcbb07e9cc785a98.png",
-    "static/media/Frame 68.png": "/ak-portfolio-2024/static/media/Frame 68.e9d8b7f99a8774154e00.png",
-    "static/media/aisummerizer.png": "/ak-portfolio-2024/static/media/aisummerizer.6e1e86f6315f3e828663.png",
-    "static/media/profileImg.png": "/ak-portfolio-2024/static/media/profileImg.4efa816436830fc5dac0.png",
-    "static/media/portfolio.png": "/ak-portfolio-2024/static/media/portfolio.5e3925eb432bb83bbc2c.png",
-    "static/media/user.png": "/ak-portfolio-2024/static/media/user.343549ed4aaa875e37fa.png",
-    "static/media/CoBit preview.png": "/ak-portfolio-2024/static/media/CoBit preview.29e89fcd4f696018dd5a.png",
-    "static/media/alirezadashti.jpg": "/ak-portfolio-2024/static/media/alirezadashti.7384bf15e630bcc8e65b.jpg",
-    "static/media/Usermanagement.png": "/ak-portfolio-2024/static/media/Usermanagement.88adf30704d455ef8827.png",
-    "static/media/salehBayat.jpg": "/ak-portfolio-2024/static/media/salehBayat.504bae25cc8bb726503e.jpg",
-    "static/media/mhesfahani.jpg": "/ak-portfolio-2024/static/media/mhesfahani.2bcfa0900accff1ddcad.jpg",
-    "static/media/Frame 11.png": "/ak-portfolio-2024/static/media/Frame 11.eb49aa95ec5717803c30.png",
-    "index.html": "/ak-portfolio-2024/index.html",
-    "main.236433f3.css.map": "/ak-portfolio-2024/static/css/main.236433f3.css.map",
-    "main.442e8347.js.map": "/ak-portfolio-2024/static/js/main.442e8347.js.map"
+    "main.css": "/static/css/main.236433f3.css",
+    "main.js": "/static/js/main.bcff793b.js",
+    "static/media/codding-front-end.mov": "/static/media/codding-front-end.5c3d3931014295ea5a0e.mov",
+    "static/media/02.jpg": "/static/media/02.3443716af6d9b0742879.jpg",
+    "static/media/rent.png": "/static/media/rent.b4d587b1ba27127bfbaf.png",
+    "static/media/netflix.png": "/static/media/netflix.0ff151a1e869bc7d9bd1.png",
+    "static/media/Weekaway.png": "/static/media/Weekaway.9125fcbb07e9cc785a98.png",
+    "static/media/Frame 68.png": "/static/media/Frame 68.e9d8b7f99a8774154e00.png",
+    "static/media/aisummerizer.png": "/static/media/aisummerizer.6e1e86f6315f3e828663.png",
+    "static/media/profileImg.png": "/static/media/profileImg.4efa816436830fc5dac0.png",
+    "static/media/portfolio.png": "/static/media/portfolio.5e3925eb432bb83bbc2c.png",
+    "static/media/user.png": "/static/media/user.343549ed4aaa875e37fa.png",
+    "static/media/CoBit preview.png": "/static/media/CoBit preview.29e89fcd4f696018dd5a.png",
+    "static/media/alirezadashti.jpg": "/static/media/alirezadashti.7384bf15e630bcc8e65b.jpg",
+    "static/media/Usermanagement.png": "/static/media/Usermanagement.88adf30704d455ef8827.png",
+    "static/media/salehBayat.jpg": "/static/media/salehBayat.504bae25cc8bb726503e.jpg",
+    "static/media/mhesfahani.jpg": "/static/media/mhesfahani.2bcfa0900accff1ddcad.jpg",
+    "static/media/Frame 11.png": "/static/media/Frame 11.eb49aa95ec5717803c30.png",
+    "index.html": "/index.html",
+    "main.236433f3.css.map": "/static/css/main.236433f3.css.map",
+    "main.bcff793b.js.map": "/static/js/main.bcff793b.js.map"
   },
   "entrypoints": [
     "static/css/main.236433f3.css",
-    "static/js/main.442e8347.js"
+    "static/js/main.bcff793b.js"
   ]
 }
