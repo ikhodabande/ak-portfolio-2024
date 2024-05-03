@@ -25,7 +25,7 @@ function Home() {
 {/* my name and titles */}
 <div className={`w-full flex flex-col justify-center items-center md:mt-[40px] sm:mt-4  ${ProfileImg?'translate-y-[50vh] scale-50 duration-500 ease-in-out':'translate-y-[0vh] scale-100 duration-300 ease-in-out'}`}  >
 <p className='border-2 hidden sm:flex border-gray-600 rounded-full py-1 px-5 '>Hello!</p>
-<h1 className='hidden sm:flex md:text-6xl sm:text-4xl text-3xl font-bold sm:mt-4 '>I`m <span className='text-orange-500'>Amir Khodabande</span>,</h1>
+<h1 className='hidden sm:flex md:text-6xl sm:text-4xl text-3xl font-bold sm:mt-4 '>I`m  <span className='text-orange-500 px-1'> Amir Khodabande</span>,</h1>
 <h1 className='hidden sm:flex md:text-7xl sm:text-4xl text-2xl font-bold'>
 <TypeAnimation
       sequence={[
@@ -33,7 +33,7 @@ function Home() {
         5000, 
         'Photographer',
         1000,
-        'Web Design & Develope',
+        'React Developer',
         1000,
         'Javascript Developer',
         1000

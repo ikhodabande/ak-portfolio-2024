@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 function Contact() {
   return (
     
-      <div id='Contact' className='w-full md:h-[90vh] h-full rounded-t-3xl bg-[#272727] flex flex-col items-center'>
+      <div id='Contact' className='w-full  h-full rounded-t-3xl bg-[#272727] flex flex-col items-center'>
         <div className='flex flex-col justify-between'>
            <div className='w-full max-w-[90%] flex justify-between items-center  my-20 mx-10 md:mx-0'>
             <h1 className='md:text-5xl text-2xl font-bold text-white'>Lets Connect there</h1>
@@ -14,9 +14,9 @@ function Contact() {
             <button className='bg-[#FD853A] md:text-xl text-xs py-3 md:px-10 px-7 mx-4 md:mx-0 rounded-full  text-white hover:bg-white duration-200 ease-in hover:text-[#272727] hover:shadow-md'>Hire me</button>
             </a>
            </div>
-           <div className='max-w-[1400px] w-full h-full md:h-[45vh] grid md:grid-cols-4 grid-cols-1 gap-8 text-center text-white border-t border-b py-12 '>
+           <div className='max-w-[1400px] w-full h-full md:h-[45vh] grid md:grid-cols-4 grid-cols-1 gap-8 text-center text-white border-t border-b py-12  md:py-6 '>
             {/* col1 */}
-            <div className='pt-8 px-10 md:px-0' > 
+            <div className='pt-8 sm:pt-0 px-10 md:px-0 md:pl-4' > 
               <div className='flex items-center '>
               <img src={Logo} alt="" style={{width:'40px'}}/>
              <h1 className='text-xl ml-2 font-bold'>iKHODABANDE</h1>
@@ -82,7 +82,7 @@ function Contact() {
               </div>
             </div>
            </div>
-           <div className='w-full md:max-w-[1500px] grid grid-cols-2 md:gap-8'>
+           <div className='w-full md:max-w-[1500px] grid grid-cols-2 md:gap-8 px-4'>
             <p className='text-white pl-2 py-10 md:pt-20 md:text-start text-center text-sm md:text-base  max-w-[180px] sm:max-w-full'>Copyright  2024 Khodabande. All Rights Reserved.</p>
 
             <p className='text-white py-10 md:pt-20  md:text-end text-center text-sm max-w-[180px] sm:max-w-full'>User Terms & Conditions | Privacy Policy

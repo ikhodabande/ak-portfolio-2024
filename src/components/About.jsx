@@ -12,7 +12,7 @@ function About() {
     
       <div name="About"  className='w-full h-full relative'>
         {/* background Images and abstracts */}
-         <img className='w-full md:h-screen h-full lg:object-cover lg:rounded-3xl  ' src={img} alt="" /> 
+         <img className='w-full md:h-[680px] h-full lg:object-cover lg:rounded-3xl  ' src={img} alt="" /> 
          
          <div className='w-full flex flex-col items-center text-center absolute top-[80px] left-[50%]  -translate-x-[50%] '>
           <div className='w-full'>
