@@ -1,5 +1,7 @@
 # 🌟 Amirmohammad Khodabande's Portfolio 🌟
 
+<img src="https://github.com/ikhodabande/ak-portfolio-2024/blob/main/src/assestes/website.png"/>
+
 Welcome to my portfolio repository! I'm Amirmohammad Khodabande, a passionate Front-End Developer and Photographer. Here, you can explore my work, learn more about me, and find out how to get in touch. 
 
 ## 🖥️ Services
