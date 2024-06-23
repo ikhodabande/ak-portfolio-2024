@@ -103,9 +103,9 @@ function Home() {
 
 </div>
 {/* portfolio and hire in mobile view */}
- <div className='flex sm:hidden absolute top-[45%] left-[20%]'>
+ <div className='w-full flex items-center justify-center sm:hidden absolute top-[45%] left-0'>
  <Link  to='Portfolio' duration={500} spy={true} smooth={true}>
-  <button className=' text-white bg-[#f57627]  shadow-xl border border-[#ff6302] shadow-[#58331b5b] backdrop-blur-sm mx-6 px-6 rounded-full  text-md py-1  hover:bg-[#c86121] duration-200 ease-in-out font-sans'>
+  <button className=' text-white bg-[#f57627]  shadow-xl border border-[#ff6302] shadow-[#58331b5b] backdrop-blur-sm px-6 mr-4 rounded-full  text-md py-1  hover:bg-[#c86121] duration-200 ease-in-out font-sans'>
     Portfolio
   </button>
   </Link>
